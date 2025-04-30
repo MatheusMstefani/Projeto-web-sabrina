@@ -1,6 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e9e7e7;
     text-align: center;
 }
 .conteiner{
@@ -82,9 +82,9 @@ li{
     margin: 5px 0;
     border-radius: 4px;
 }
-.completed{
+.completed {
     text-decoration: line-through;
-    color: rgb(1, 75, 1);
+    color: rgb(1, 75, 1); 
 }
 .dark-mode{
     background-color: rgb(12, 11, 11);
