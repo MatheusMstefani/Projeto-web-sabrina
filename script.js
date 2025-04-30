@@ -4,7 +4,7 @@
   const taskInput = document.getElementById("Task-input");
   const addTaskBtn = document.getElementById("add-task");
   const taskList = document.getElementById("task-list");
-  const filter = document.querySelectorAll(".filter"); // corrigido aqui
+  const filter = document.querySelectorAll(".filter"); 
   const toggleThereBtn = document.getElementById("toggle-theme");
 
   // LocalStored - Armazenar os dados salvos no navegador
@@ -68,11 +68,11 @@
   }
 
   addTaskBtn.addEventListener("click", function(){
-    const text = taskInput.value.trim(); // corrigido aqui: trim()
+    const text = taskInput.value.trim();
     if(text) {
       tasks.push({ text: text, completed: false });
       saveTasks();
-      renderTasks(); // atualiza a lista
+      renderTasks(); 
       taskInput.value = "";
     }
 
